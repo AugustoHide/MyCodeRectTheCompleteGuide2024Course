@@ -1,0 +1,22 @@
+{
+  "name": "starting-project",
+  "version": "1.0.0",
+  "description": "Project initially copied from the strating project of the course of React, to then implement according to the lectures.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "author": "Augusto Hide",
+  "license": "ISC"
+}
