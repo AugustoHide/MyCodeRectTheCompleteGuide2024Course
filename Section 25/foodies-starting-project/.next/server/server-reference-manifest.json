@@ -1,0 +1,14 @@
+{
+  "node": {
+    "4ba1dda1b1ffdc64b8c1208380bc27dde87d47a7": {
+      "workers": {
+        "app/meals/share/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Faugusto%2FDownloads%2FReactTheCompleteGuide2024%2FSection%2025%2Ffoodies-starting-project%2Flib%2Factions.js%22%2C%5B%22shareMeal%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/meals/share/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "74QkerVMhcHLTAS4zP3E5UcP7IX3qnJJCIZx+d+heNk="
+}
