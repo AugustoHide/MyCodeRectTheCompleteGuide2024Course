@@ -4,8 +4,10 @@ import ExpenseForm from "./ExpenseForm";
 export default function NewExpense(props) {
   function saveExpenseData(enteredExpenseData) {
     const expenseData = {
-      ...enteredExpenseData,
       id: Math.random().toString(),
+      date: new Date(enteredExpenseData.enteredDate),
+      title: enteredExpenseData.enteredTitle,
+      amount: +enteredExpenseData.enteredAmount,
     };
     props.onAddExpense(expenseData);
     return expenseData;
